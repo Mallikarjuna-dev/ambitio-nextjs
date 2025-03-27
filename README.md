@@ -25,46 +25,72 @@ This project is a **Next.js-based replica** of the **Ambitio Elite** page. It fe
 ## 📦 Installation
 
 1️⃣ **Clone the Repository**
-```sh
+```
 git clone https://github.com/Mallikarjuna-dev/ambitio-nextjs.git
 cd ambitio-nextjs
+```
 
 2️⃣ **Install Dependencies**
-```sh
+```
 npm install
+```
 
 3️⃣ **Run the Development Server**
-```sh
+```
 npm run dev
+```
 
 4️⃣ Open in Browser
+```
 http://localhost:3000
-
+```
 
 ## 📂 Folder Structure
-
-ambitio-elite/
+```
+ambitio-nextjs/
 │── app/
+│   ├── globals.css    # Tailwind CSS Global Styles
 │   ├── layout.js      # Main Layout
-│   ├── page.js        # Homepage with Header & Marquee
+│   ├── page.js        # Homepage with Header, Hero, Marquee & Stats
 │── components/
 │   ├── Header.js      # Navbar Component
+│   ├── Hero.js
 │   ├── Marquee.js     # Scrolling Animation Component
+│   ├── Stats.js
 │── public/
 │   ├── images/        # Static Images for Marquee
-│── styles/
-│   ├── globals.css    # Tailwind CSS Global Styles
 │── postcss.config.mjs # PostCSS Configuration
 │── tailwind.config.mjs # Tailwind Config (if added manually)
 │── package.json       # Dependencies & Scripts
 │── README.md          # Project Documentation
-
+```
 
 ## 🚀 Deployment
-
 🔹 Deploy on Vercel
 
-Install Vercel CLI (if not installed)
+1 Install Vercel CLI (if not installed)
+```
 npm install -g vercel
+```
+
+2. Login to Vercel
+```
+vercel login
+
+```
+
+3. Deploy
+```
+vercel
+
+```
+
+
+### ✅ Live Preview:  [ambitio-nextjs.vercel.app](https://ambitio-nextjs.vercel.app/)
+
+
+
+
+
 
 
