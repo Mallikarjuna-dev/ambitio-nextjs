@@ -18,7 +18,6 @@ This project is a **Next.js-based replica** of the **Ambitio Elite** page. It fe
 - **Tailwind CSS**
 - **PostCSS**
 - **Lucide React** (for icons)
-- **Chart.js** (for charts, if needed)
 
 ---
 
